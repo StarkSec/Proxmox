@@ -4,7 +4,7 @@ A nested home lab for pentesting practice, built inside VMware (Bare-metal soonT
 
 ## Stack
 
-- **Hypervisor:** Proxmox VE (installed as a VM inside VMware Workstation)
+- **Hypervisor:** Proxmox VE (installed as a VM)
 - **Gateway/Firewall:** pfSense
 - **Attacker:** Kali Linux
 - **Victims:** Metasploitable 2, Metasploitable 3
