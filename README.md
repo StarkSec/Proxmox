@@ -1,6 +1,6 @@
 # Proxmox Pentest Lab — Build Notes
 
-A nested home lab for pentesting practice, built inside VMware Workstation. Goal: a Kali attacker box plus expandable victim machines, with room to grow toward enterprise-style segmentation later.
+A nested home lab for pentesting practice, built inside VMware (Bare-metal soonTM).
 
 ## Stack
 
@@ -20,7 +20,7 @@ A nested home lab for pentesting practice, built inside VMware Workstation. Goal
                   │ pfSense │  LAN: 10.10.10.1
                   └─────────┘
                        |
-                    vmbr1 (LAN, no physical NIC — pure L2 bridge)
+                    vmbr1 (LAN,L2 bridge)
                        |
         ┌──────────────┼──────────────┐
       Kali          Metasploitable2  Metasploitable3
